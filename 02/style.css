@@ -7,7 +7,7 @@ body{
     background-color: rgb(196, 203, 209);
     text-align: center;
     padding: 100px;
-    display: inline-block;
+ 
 }
 nav{
     text-align: left;
@@ -20,9 +20,9 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2{
-    font-size:10px ;
+    font-size:30px ;
     text-align: center;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 20px;
 }
 h4{
@@ -43,11 +43,53 @@ section{
     
     width: 400px;
     height: 1000px;
-    background: rgb(71, 67, 67);
-    
+    background: rgb(90, 45, 214);
+    box-shadow: 10px 5px 5px black;
     display: inline-flex;
     border: 2px solid lavender;
     text-align: center;
     margin: 10px;
     padding: 20px;
+
+}
+section:hover{
+    width: 800px;
+    height: 2000px;
+    background: rgb(90, 45, 214);
+    box-shadow: 10px 5px 5px black;
+    display: inline-flex;
+    border: 2px solid lavender;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: large;
+    -webkit-transform-origin-x: 50%;
+    box-shadow: 10px 5px 5px rgb(255, 230, 0);
+
+}
+h2:hover{
+    font-size: 100px;
+}
+h4:hover{
+    font-size: 100px;
+}
+p:hover{
+    font-size: 100px;
+}
+img:hover{
+    width: auto;
+    height: 900px;
+    font-size: large;
+}
+aside{
+    padding: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+aside:active{
+    font-size: 100px;
+}
+h4{
+    margin-bottom: 30px;
+    text-align: center;
 }
